@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Pesquisar no Google",
+    "version": "1.0",
+    "description": "Pesquisa o texto selecionado no Google.",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
